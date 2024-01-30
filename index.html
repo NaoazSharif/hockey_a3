@@ -86,7 +86,7 @@
     </header>
     <main>
         <!-- carousel banner section  -->
-        <section class="container mx-5 md:mx-auto lg:mx-auto lg:mt-12">
+        <section class="container mx-5 md:mx-auto lg:mx-auto mt-5 lg:mt-12">
             <div class="carousel w-full lg:h-[550px]">
                 <div id="slide1" class="carousel-item w-full relative flex flex-col lg:flex-row gap-5 lg:gap-0">
                     <img src="images/banner.png" class="w-full" />
@@ -199,7 +199,7 @@
             </div>
         </section>
         <!-- New Products Section -->
-        <section class="container mx-5 md:mx-auto lg:mx-auto lg:mt-12 space-y-6">
+        <section class="container mx-5 md:mx-auto lg:mx-auto mt-5 lg:mt-12 space-y-5">
             <div class="text-center space-y-6">
                 <h2 class="text-2xl lg:text-4xl font-extrabold">Our New Products</h2>
                 <p class="font-medium">We have recently launced new products. Lets know about them. </p>
@@ -309,11 +309,80 @@
                 </div>
             </div>
         </section>
+        <!-- Client Questions -->
+        <section class="container mx-5 md:mx-auto lg:mx-auto mt-5 lg:mt-12 space-y-5">
+            <div>
+                <div class="text-center space-y-6">
+                    <h2 class="text-2xl lg:text-4xl font-extrabold">Clients Questions</h2>
+                    <p class="font-medium">Some frequently asked Questions are answered below.</p>
+                </div>
+            </div>
+            <div class="flex flex-col lg:flex-row mt-5 lg:justify-between gap-5">
+                <img src="/images/faq-images.png" alt="frequentlya asked Questions picture.">
+                <div class="space-y-4 flex-1">
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <div class="collapse-title text-xl font-medium">
+                          Our Equipment
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>We have every equipment you want.</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                          Hockey Training
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>We have professional couach for your training.</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                          Private lessons
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>You can also get private lessons according to your time.</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                          Ski Touring
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>We can also guide you in ski touring.</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                          Booking
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>You can book your place by mail or phone call.</p>
+                        </div>
+                      </div>
+                      <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" /> 
+                        <div class="collapse-title text-xl font-medium">
+                          Pricing
+                        </div>
+                        <div class="collapse-content"> 
+                          <p>Contact us to know about pricing. </p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </section>
         <!-- get in touch -->
-        <section class="container mx-5 md:mx-auto lg:mx-auto lg:mt-12 space-y-6">
+        <section class="container mx-5 mb-4 lg:mb-8 md:mx-auto lg:mx-auto mt-5 lg:mt-12 space-y-5">
             <div class="text-center space-y-6">
                 <h2 class="text-2xl lg:text-4xl font-extrabold">Get In Touch</h2>
-                <p class="font-medium">If you want to reach us. Mail, Facebook link and location are given below. Also you can directly text us.</p>
+                <p class="font-medium">If you want to reach us. Mail, Facebook link and location are given below. Also
+                    you can directly text us.</p>
             </div>
             <div class="flex flex-col lg:flex-row gap-5 ">
                 <!-- links -->
@@ -338,40 +407,81 @@
                 <form action="" class="grid grid-cols-1 grid-rows-1 lg:grid-cols-2 lg:grid-rows-5 gap-5 p-5 flex-1">
                     <label class="form-control w-full ">
                         <h3 class="text-xl font-bold">
-                          Name:  
+                            Name:
                         </h3>
                         <input type="text" placeholder="Enter Your Full Name" class="input input-bordered w-full " />
-                      </label>
+                    </label>
                     <label class="form-control w-full ">
                         <h3 class="text-xl font-bold">
-                          Email:  
+                            Email:
                         </h3>
                         <input type="email" placeholder="Enter Your Email" class="input input-bordered w-full " />
-                      </label>
+                    </label>
                     <label class="form-control w-full ">
                         <h3 class="text-xl font-bold">
-                          Subject:  
+                            Subject:
                         </h3>
                         <input type="text" placeholder="Enter Your Subject" class="input input-bordered w-full " />
-                      </label>
+                    </label>
                     <label class="form-control w-full ">
                         <h3 class="text-xl font-bold">
-                          Phone:  
+                            Phone:
                         </h3>
-                        <input type="number" placeholder="Enter Your Phone Number" class="input input-bordered w-full " />
-                      </label>
-                      <label class="form-control lg:col-span-2 lg:row-span-2">
+                        <input type="number" placeholder="Enter Your Phone Number"
+                            class="input input-bordered w-full " />
+                    </label>
+                    <label class="form-control lg:col-span-2 lg:row-span-2">
                         <h3 class="text-xl font-bold">
-                          Message:
+                            Message:
                         </h3>
-                        <textarea class="textarea textarea-bordered" placeholder="Write Your Message"></textarea>
-                      </label>
-                      <input type="button" value="Send Message" class="btn bg-primary-color text-white col-span-2">
+                        <textarea class="textarea textarea-bordered lg:pb-[9rem]" placeholder="Write Your Message"
+                            cols="1000"></textarea>
+                    </label>
+                    <input type="button" value="Send Message" class="btn bg-primary-color text-white lg:col-span-2">
                 </form>
+            </div>
+            <!-- social media icons -->
+            <div class="flex flex-col justify-center items-center bg-[#1313180d] p-10 rounded-lg">
+                <h3 class="text-2xl font-extrabold">Social Media</h3>
+                <div class="flex gap-5">
+                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                </div>
             </div>
         </section>
     </main>
-    <footer>
+    <!-- footer section -->
+    <footer class="p-10 bg-[#131318]">
+        <div class="footer container mx-auto text-white grid grid-cols-2 lg:grid-cols-5 ">
+            <div class="col-span-2 min-w-72 lg:w-80">
+                <h3 class="text-2xl lg:text-3xl font-extrabold">Get In Touch</h3>
+                <p>Want to contact us. We have submited our email and phone number below. Fill free to contact us </p>
+                <p><i class="fa-regular fa-envelope text-primary-color mr-2"></i> hockeys@support.com</p>
+                <p><i class="fa-solid fa-phone text-primary-color mr-2"></i> (+62) 123-321-543</p>
+            </div>
+            <nav>
+                <h6 class="footer-title">Services</h6>
+                <a class="link link-hover">Branding</a>
+                <a class="link link-hover">Design</a>
+                <a class="link link-hover">Marketing</a>
+                <a class="link link-hover">Advertisement</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Company</h6>
+                <a class="link link-hover">About us</a>
+                <a class="link link-hover">Contact</a>
+                <a class="link link-hover">Jobs</a>
+                <a class="link link-hover">Press kit</a>
+            </nav>
+            <nav>
+                <h6 class="footer-title">Legal</h6>
+                <a class="link link-hover">Terms of use</a>
+                <a class="link link-hover">Privacy policy</a>
+                <a class="link link-hover">Cookie policy</a>
+            </nav>
+        </div>
 
     </footer>
 </body>
