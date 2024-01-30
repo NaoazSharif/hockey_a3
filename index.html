@@ -44,20 +44,36 @@
 </head>
 
 <body class="font-manrope">
-    <!-- nav section -->
-    <header class="container mx-auto ">
-        <div class="navbar">
-            <div class="navbar-start">
-                <div class="dropdown">
-                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                d="M4 6h16M4 12h8m-8 6h16" />
-                        </svg>
+    <!-- header -->
+
+    <header>
+        <!-- nav section -->
+        <nav class="container mx-auto">
+            <div class="navbar">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul tabindex="0"
+                            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                            <li><a>Home</a></li>
+                            <li><a>About</a></li>
+                            <li><a>Pages</a></li>
+                            <li><a>Blog</a></li>
+                            <li><a>Contact</a></li>
+                        </ul>
                     </div>
-                    <ul tabindex="0"
-                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <a class="text-2xl lg:text-4xl font-extrabold">
+                        <h2>Hockey<span class="text-primary-color">'</span>s</h2>
+                    </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
                         <li><a>Home</a></li>
                         <li><a>About</a></li>
                         <li><a>Pages</a></li>
@@ -65,26 +81,12 @@
                         <li><a>Contact</a></li>
                     </ul>
                 </div>
-                <a class="text-2xl lg:text-4xl font-extrabold">
-                    <h2>Hockey<span class="text-primary-color">'</span>s</h2>
-                </a>
+                <div class="navbar-end flex items-center gap-6">
+                    <i class="fa-solid fa-magnifying-glass hidden lg:inline"></i>
+                    <a class="btn px-4 lg:px-6 py-2 lg:py-4 bg-primary-color text-white">Get Ticket</a>
+                </div>
             </div>
-            <div class="navbar-center hidden lg:flex">
-                <ul class="menu menu-horizontal px-1">
-                    <li><a>Home</a></li>
-                    <li><a>About</a></li>
-                    <li><a>Pages</a></li>
-                    <li><a>Blog</a></li>
-                    <li><a>Contact</a></li>
-                </ul>
-            </div>
-            <div class="navbar-end flex items-center gap-6">
-                <i class="fa-solid fa-magnifying-glass hidden lg:inline"></i>
-                <a class="btn px-4 lg:px-6 py-2 lg:py-4 bg-primary-color text-white">Get Ticket</a>
-            </div>
-        </div>
-    </header>
-    <main>
+        </nav>
         <!-- carousel banner section  -->
         <section class="container mx-5 md:mx-auto lg:mx-auto mt-5 lg:mt-12">
             <div class="carousel w-full lg:h-[550px]">
@@ -130,6 +132,10 @@
 
             </div>
         </section>
+
+    </header>
+   <!-- main -->
+    <main>
         <!-- facility section section -->
         <section class="container mx-5 lg:mx-auto mt-5 lg:mt-12">
             <div class="text-center space-y-6">
@@ -207,7 +213,7 @@
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
                 <!-- cart one-->
                 <div class="card card-side bg-base-100 shadow-xl p-5 flex-col lg:flex-row">
-                    <img src="/images/product1.png">
+                    <img src="images/product1.png">
                     <div class="card-body">
                         <div class="flex font-medium">
                             <p><i class="fa-solid fa-star text-yellow-500"></i> 5.0</p>
@@ -224,7 +230,7 @@
                 </div>
                 <!-- cart two-->
                 <div class="card card-side bg-base-100 shadow-xl p-5 flex-col lg:flex-row">
-                    <img src="/images/product2.png">
+                    <img src="images/product2.png">
                     <div class="card-body">
                         <div class="flex font-medium">
                             <p><i class="fa-solid fa-star text-yellow-500"></i> 5.0</p>
@@ -241,7 +247,7 @@
                 </div>
                 <!-- cart three -->
                 <div class="card card-side bg-base-100 shadow-xl p-5 flex-col lg:flex-row">
-                    <img src="/images/product3.png">
+                    <img src="images/product3.png">
                     <div class="card-body">
                         <div class="flex font-medium">
                             <p><i class="fa-solid fa-star text-yellow-500"></i> 5.0</p>
@@ -258,7 +264,7 @@
                 </div>
                 <!-- cart four-->
                 <div class="card card-side bg-base-100 shadow-xl p-5 flex-col lg:flex-row">
-                    <img src="/images/product4.png">
+                    <img src="images/product4.png">
                     <div class="card-body">
                         <div class="flex font-medium">
                             <p><i class="fa-solid fa-star text-yellow-500"></i> 5.0</p>
@@ -275,7 +281,7 @@
                 </div>
                 <!-- cart five-->
                 <div class="card card-side bg-base-100 shadow-xl p-5 flex-col lg:flex-row">
-                    <img src="/images/product5.png">
+                    <img src="images/product5.png">
                     <div class="card-body">
                         <div class="flex font-medium">
                             <p><i class="fa-solid fa-star text-yellow-500"></i> 5.0</p>
@@ -292,7 +298,7 @@
                 </div>
                 <!-- cart six-->
                 <div class="card card-side bg-base-100 shadow-xl p-5 flex-col lg:flex-row">
-                    <img src="/images/product6.png">
+                    <img src="images/product6.png">
                     <div class="card-body">
                         <div class="flex font-medium">
                             <p><i class="fa-solid fa-star text-yellow-500"></i> 5.0</p>
@@ -321,59 +327,59 @@
                 <img src="/images/faq-images.png" alt="frequentlya asked Questions picture.">
                 <div class="space-y-4 flex-1">
                     <div class="collapse collapse-plus bg-base-200">
-                        <input type="radio" name="my-accordion-3" checked="checked" /> 
+                        <input type="radio" name="my-accordion-3" checked="checked" />
                         <div class="collapse-title text-xl font-medium">
-                          Our Equipment
+                            Our Equipment
                         </div>
-                        <div class="collapse-content"> 
-                          <p>We have every equipment you want.</p>
+                        <div class="collapse-content">
+                            <p>We have every equipment you want.</p>
                         </div>
-                      </div>
-                      <div class="collapse collapse-plus bg-base-200">
-                        <input type="radio" name="my-accordion-3" /> 
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" />
                         <div class="collapse-title text-xl font-medium">
-                          Hockey Training
+                            Hockey Training
                         </div>
-                        <div class="collapse-content"> 
-                          <p>We have professional couach for your training.</p>
+                        <div class="collapse-content">
+                            <p>We have professional couach for your training.</p>
                         </div>
-                      </div>
-                      <div class="collapse collapse-plus bg-base-200">
-                        <input type="radio" name="my-accordion-3" /> 
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" />
                         <div class="collapse-title text-xl font-medium">
-                          Private lessons
+                            Private lessons
                         </div>
-                        <div class="collapse-content"> 
-                          <p>You can also get private lessons according to your time.</p>
+                        <div class="collapse-content">
+                            <p>You can also get private lessons according to your time.</p>
                         </div>
-                      </div>
-                      <div class="collapse collapse-plus bg-base-200">
-                        <input type="radio" name="my-accordion-3" /> 
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" />
                         <div class="collapse-title text-xl font-medium">
-                          Ski Touring
+                            Ski Touring
                         </div>
-                        <div class="collapse-content"> 
-                          <p>We can also guide you in ski touring.</p>
+                        <div class="collapse-content">
+                            <p>We can also guide you in ski touring.</p>
                         </div>
-                      </div>
-                      <div class="collapse collapse-plus bg-base-200">
-                        <input type="radio" name="my-accordion-3" /> 
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" />
                         <div class="collapse-title text-xl font-medium">
-                          Booking
+                            Booking
                         </div>
-                        <div class="collapse-content"> 
-                          <p>You can book your place by mail or phone call.</p>
+                        <div class="collapse-content">
+                            <p>You can book your place by mail or phone call.</p>
                         </div>
-                      </div>
-                      <div class="collapse collapse-plus bg-base-200">
-                        <input type="radio" name="my-accordion-3" /> 
+                    </div>
+                    <div class="collapse collapse-plus bg-base-200">
+                        <input type="radio" name="my-accordion-3" />
                         <div class="collapse-title text-xl font-medium">
-                          Pricing
+                            Pricing
                         </div>
-                        <div class="collapse-content"> 
-                          <p>Contact us to know about pricing. </p>
+                        <div class="collapse-content">
+                            <p>Contact us to know about pricing. </p>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -388,17 +394,17 @@
                 <!-- links -->
                 <div class="flex flex-col gap-5 p-6 lg:p-12 flex-1">
                     <div class="p-6 space-y-3 bg-base-100 shadow-xl rounder-2xl">
-                        <img src="/images/call.png" alt="">
+                        <img src="images/call.png" alt="">
                         <p>Phone Number:</p>
                         <h3 class="font-extrabold">(+62) 123-321-543</h3>
                     </div>
                     <div class="p-6 space-y-3 bg-base-100 shadow-xl rounder-2xl">
-                        <img src="/images/email.png" alt="">
+                        <img src="images/email.png" alt="">
                         <p>Email:</p>
                         <h3 class="font-extrabold">hockeys@support.com</h3>
                     </div>
                     <div class="p-6 space-y-3 bg-base-100 shadow-xl rounder-2xl">
-                        <img src="/images/location.png" alt="">
+                        <img src="images/location.png" alt="">
                         <p>Location:</p>
                         <h3 class="font-extrabold">152/1 Mohakhali Wireless Gate</h3>
                     </div>
@@ -482,7 +488,6 @@
                 <a class="link link-hover">Cookie policy</a>
             </nav>
         </div>
-
     </footer>
 </body>
 
